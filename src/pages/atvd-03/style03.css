@@ -1,0 +1,121 @@
+
+.header{
+    background: #fff;
+    width: 100%;
+    display: flex;
+   box-shadow: 0px 4px 15px #141414;
+   
+}
+.header a{
+    font-family: sans-serif;
+    color: #ff5bb5;
+    text-decoration: none;
+}
+.header a:hover{
+    transition: 0.4s;
+    color: #b83f81;
+    border-bottom: 1px solid;
+}
+.header li{
+    vertical-align: middle;
+    display: inline-block;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.logo{
+    color: #ff5bb5;
+    font-size: 40px;
+}
+
+.fundo{
+    overflow: hidden;
+    background-image: url("fundo.jpg");
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    mask-image: linear-gradient(to right, transparent 4%, black 100%);
+    border-bottom: 1px solid #fff;
+}
+.lista{
+    margin: 0px;
+}
+.titulo-pandeiro{
+    width: 100%;
+    height: 40%;
+    background: transparent;
+    display: flex;
+    
+}
+.secao-01{
+    margin-top: 20px;
+    text-align: left;
+    background-color: transparent;
+    width: 80vw;
+    height: 100%;
+    margin-left: 2vw;
+    border: 1px none #fff;
+    padding: 10px;
+}
+.pandeiro{
+width: 220px;
+height: 150px;
+    
+}
+.h1{
+    color: #ffea2b;
+    text-shadow: 0px 0px 25px #ffbb00a2;
+    font-size: 60px;
+}
+.h3{
+    color: #fff;
+}
+.evento{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 6px;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0px 0px 30px #ff048e69;
+}
+.li{
+    color: #ffa2d5;
+    font-weight: 700;
+}
+.ingressos{
+    padding: 4px;
+    margin-top: 50px;
+    color: #ffffff;
+    border-bottom: 2px solid;
+    width: 115px;
+}
+.contato{
+    text-align: center;
+    margin-top: 30px;
+    color: #2dff49;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 40px;
+    width: 30%;
+}
+.contato:hover{
+    border: none;
+    box-shadow: 0px 0px 10px #141414;
+    transition: 0.8s;
+    cursor: pointer;
+    background: #fff;
+    color: #1dce35;
+}
+.body{
+    padding: 100%;
+    background-color: rgb(70, 70, 70);
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background: rgb(23, 2, 61);
+    z-index: 100;
+    position: relative;
+}

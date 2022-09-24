@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATVD React</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+
+    <div class="alinhar-tudo">
+    <h3>Atividade <b> React </b> </h3>
+    <h2>Como eu conheci a programação</h2>
+
+   
+    
+<div id="like_button_container" class="btn" onclick="clicar();"></div>
+<div class="texto">
+    <p id="q1"> - O TEXTO APARECERÁ AQUI - </p>
+    <p id="q2"></p>
+    <p id="q3"></p>
+    <p id="q4"></p>
+    <p id="q5"></p>
+    <p id="q6"></p>
+    <p id="q7"></p>
+    <p id="q8"></p>
+    <p id="q9"></p>
+    <p id="q10"></p>
+    <p id="q11"></p>
+    <p id="q12"></p>
+    <p id="q13"></p>
+    <p id="q14"></p>
+    <p id="q15"></p>
+</div>
+</div>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="like_button.js"></script>
+
+    <script src="mensagens.js"></script>
+
+    <script>
+        function clicar(){
+        var q1 = document.getElementById("q1");
+        var q2 = document.getElementById("q2");
+        var q3 = document.getElementById("q3");
+        var q4 = document.getElementById("q4");
+        var q5 = document.getElementById("q5");
+        var q6 = document.getElementById("q6");
+        var q7 = document.getElementById("q7");
+        var q8 = document.getElementById("q8");
+        var q9 = document.getElementById("q9");
+        var q10 = document.getElementById("q10");
+        var q11 = document.getElementById("q11");
+        var q12 = document.getElementById("q12");
+        var q13 = document.getElementById("q13");
+        var q14 = document.getElementById("q14");
+        var q15 = document.getElementById("q15");
+
+        mensagem(' ')
+        .then(v =>{
+
+            q1.innerHTML = (v) 
+
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+
+        mensagem2(' ')
+        .then(v =>{
+
+            q2.innerHTML = (v)
+            
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        
+        mensagem3(' ')
+        .then(v =>{
+
+            q3.innerHTML = (v)
+            
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+
+
+        mensagem4(' ')
+        .then(v =>{
+
+            q4.innerHTML = (v)
+            
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+
+
+        mensagem5(' ')
+        .then(v =>{
+
+            q5.innerHTML = (v)
+            
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+
+
+        mensagem6(' ')
+        .then(v =>{
+ 
+            q6.innerHTML = (v)
+            
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+
+
+        mensagem7(' ')
+        .then(v =>{
+
+            q7.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem8(' ')
+        .then(v =>{
+
+            q8.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem9(' ')
+        .then(v =>{
+
+            q9.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem10(' ')
+        .then(v =>{
+
+            q10.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem11(' ')
+        .then(v =>{
+
+            q11.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem12(' ')
+        .then(v =>{
+
+            q12.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem13(' ')
+        .then(v =>{
+
+            q13.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem14(' ')
+        .then(v =>{
+
+            q14.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        mensagem15(' ')
+        .then(v =>{
+
+            q15.innerHTML = (v)
+        })
+        .catch(function (error){
+            document.write(error);
+        });
+        
+    }
+    </script>
+
+</body>
+</html>
